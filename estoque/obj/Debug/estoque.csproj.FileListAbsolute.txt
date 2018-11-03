@@ -1,0 +1,115 @@
+C:\Users\andre\source\repos\estoque\estoque\bin\Debug\estoque.exe.config
+C:\Users\andre\source\repos\estoque\estoque\bin\Debug\estoque.exe
+C:\Users\andre\source\repos\estoque\estoque\bin\Debug\estoque.pdb
+C:\Users\andre\source\repos\estoque\estoque\obj\Debug\estoque.csprojAssemblyReference.cache
+C:\Users\andre\source\repos\estoque\estoque\obj\Debug\estoque.Properties.Resources.resources
+C:\Users\andre\source\repos\estoque\estoque\obj\Debug\estoque.csproj.GenerateResource.cache
+C:\Users\andre\source\repos\estoque\estoque\obj\Debug\estoque.csproj.CoreCompileInputs.cache
+C:\Users\andre\source\repos\estoque\estoque\obj\Debug\estoque.exe
+C:\Users\andre\source\repos\estoque\estoque\obj\Debug\estoque.pdb
+C:\Users\andre\source\repos\estoque\estoque\obj\Debug\estoque.Form1.resources
+C:\Users\andre\source\repos\estoque\estoque\obj\Debug\estoque.modItens.resources
+C:\Users\andre.osousa\Documents\Visual Studio 2015\Projects\estoqueCamietas-master\estoque\estoque\bin\Debug\estoque.exe.config
+C:\Users\andre.osousa\Documents\Visual Studio 2015\Projects\estoqueCamietas-master\estoque\estoque\obj\Debug\estoque.exe
+C:\Users\andre.osousa\Documents\Visual Studio 2015\Projects\estoqueCamietas-master\estoque\estoque\obj\Debug\estoque.pdb
+C:\Users\andre.osousa\Documents\Visual Studio 2015\Projects\estoqueCamietas-master\estoque\estoque\bin\Debug\estoque.exe
+C:\Users\andre.osousa\Documents\Visual Studio 2015\Projects\estoqueCamietas-master\estoque\estoque\bin\Debug\estoque.pdb
+C:\Users\andre.osousa\Documents\Visual Studio 2015\Projects\estoqueCamietas-master\estoque\estoque\obj\Debug\estoque.csprojResolveAssemblyReference.cache
+C:\Users\andre.osousa\Documents\Visual Studio 2015\Projects\estoqueCamietas-master\estoque\estoque\obj\Debug\estoque.Form1.resources
+C:\Users\andre.osousa\Documents\Visual Studio 2015\Projects\estoqueCamietas-master\estoque\estoque\obj\Debug\estoque.modItens.resources
+C:\Users\andre.osousa\Documents\Visual Studio 2015\Projects\estoqueCamietas-master\estoque\estoque\obj\Debug\estoque.Properties.Resources.resources
+C:\Users\andre.osousa\Documents\Visual Studio 2015\Projects\estoqueCamietas-master\estoque\estoque\obj\Debug\estoque.csproj.GenerateResource.Cache
+C:\Users\andre.osousa\Documents\Visual Studio 2015\Projects\estoqueCamietas-master\estoque\estoque\obj\Debug\estoque.login.resources
+C:\Users\andre\Documents\Visual Studio 2017\estoque\estoque\bin\Debug\estoque.exe.config
+C:\Users\andre\Documents\Visual Studio 2017\estoque\estoque\bin\Debug\estoque.exe
+C:\Users\andre\Documents\Visual Studio 2017\estoque\estoque\bin\Debug\estoque.pdb
+C:\Users\andre\Documents\Visual Studio 2017\estoque\estoque\obj\Debug\estoque.csprojAssemblyReference.cache
+C:\Users\andre\Documents\Visual Studio 2017\estoque\estoque\obj\Debug\estoque.Form1.resources
+C:\Users\andre\Documents\Visual Studio 2017\estoque\estoque\obj\Debug\estoque.login.resources
+C:\Users\andre\Documents\Visual Studio 2017\estoque\estoque\obj\Debug\estoque.modItens.resources
+C:\Users\andre\Documents\Visual Studio 2017\estoque\estoque\obj\Debug\estoque.Properties.Resources.resources
+C:\Users\andre\Documents\Visual Studio 2017\estoque\estoque\obj\Debug\estoque.csproj.GenerateResource.cache
+C:\Users\andre\Documents\Visual Studio 2017\estoque\estoque\obj\Debug\estoque.csproj.CoreCompileInputs.cache
+C:\Users\andre\Documents\Visual Studio 2017\estoque\estoque\obj\Debug\estoque.exe
+C:\Users\andre\Documents\Visual Studio 2017\estoque\estoque\obj\Debug\estoque.pdb
+C:\Users\andre.osousa\Documents\estoqueCamietas\estoque\bin\Debug\estoque.exe.config
+C:\Users\andre.osousa\Documents\estoqueCamietas\estoque\obj\Debug\estoque.pdb
+C:\Users\andre.osousa\Documents\estoqueCamietas\estoque\bin\Debug\estoque.exe
+C:\Users\andre.osousa\Documents\estoqueCamietas\estoque\bin\Debug\estoque.pdb
+C:\Users\andre.osousa\Documents\estoqueCamietas\estoque\obj\Debug\estoque.csprojResolveAssemblyReference.cache
+C:\Users\andre.osousa\Documents\estoqueCamietas\estoque\obj\Debug\estoque.Form1.resources
+C:\Users\andre.osousa\Documents\estoqueCamietas\estoque\obj\Debug\estoque.login.resources
+C:\Users\andre.osousa\Documents\estoqueCamietas\estoque\obj\Debug\estoque.modItens.resources
+C:\Users\andre.osousa\Documents\estoqueCamietas\estoque\obj\Debug\estoque.Properties.Resources.resources
+C:\Users\andre.osousa\Documents\estoqueCamietas\estoque\obj\Debug\estoque.csproj.GenerateResource.Cache
+C:\Users\andre.osousa\Documents\estoqueCamietas\estoque\obj\Debug\estoque.exe
+C:\Users\andre\Documents\GitHub\estoqueCamietas\estoque\bin\Debug\estoque.exe.config
+C:\Users\andre\Documents\GitHub\estoqueCamietas\estoque\bin\Debug\estoque.exe
+C:\Users\andre\Documents\GitHub\estoqueCamietas\estoque\bin\Debug\estoque.pdb
+C:\Users\andre\Documents\GitHub\estoqueCamietas\estoque\obj\Debug\estoque.csprojAssemblyReference.cache
+C:\Users\andre\Documents\GitHub\estoqueCamietas\estoque\obj\Debug\estoque.Form1.resources
+C:\Users\andre\Documents\GitHub\estoqueCamietas\estoque\obj\Debug\estoque.login.resources
+C:\Users\andre\Documents\GitHub\estoqueCamietas\estoque\obj\Debug\estoque.modItens.resources
+C:\Users\andre\Documents\GitHub\estoqueCamietas\estoque\obj\Debug\estoque.Properties.Resources.resources
+C:\Users\andre\Documents\GitHub\estoqueCamietas\estoque\obj\Debug\estoque.csproj.GenerateResource.cache
+C:\Users\andre\Documents\GitHub\estoqueCamietas\estoque\obj\Debug\estoque.csproj.CoreCompileInputs.cache
+C:\Users\andre\Documents\GitHub\estoqueCamietas\estoque\obj\Debug\estoque.exe
+C:\Users\andre\Documents\GitHub\estoqueCamietas\estoque\obj\Debug\estoque.pdb
+C:\Users\andre\Documents\Visual Studio 2017\estoqueCamietas\estoque\bin\Debug\estoque.exe.config
+C:\Users\andre\Documents\Visual Studio 2017\estoqueCamietas\estoque\bin\Debug\estoque.exe
+C:\Users\andre\Documents\Visual Studio 2017\estoqueCamietas\estoque\bin\Debug\estoque.pdb
+C:\Users\andre\Documents\Visual Studio 2017\estoqueCamietas\estoque\obj\Debug\estoque.csprojAssemblyReference.cache
+C:\Users\andre\Documents\Visual Studio 2017\estoqueCamietas\estoque\obj\Debug\estoque.Form1.resources
+C:\Users\andre\Documents\Visual Studio 2017\estoqueCamietas\estoque\obj\Debug\estoque.modItens.resources
+C:\Users\andre\Documents\Visual Studio 2017\estoqueCamietas\estoque\obj\Debug\estoque.Properties.Resources.resources
+C:\Users\andre\Documents\Visual Studio 2017\estoqueCamietas\estoque\obj\Debug\estoque.csproj.GenerateResource.cache
+C:\Users\andre\Documents\Visual Studio 2017\estoqueCamietas\estoque\obj\Debug\estoque.csproj.CoreCompileInputs.cache
+C:\Users\andre\Documents\Visual Studio 2017\estoqueCamietas\estoque\obj\Debug\estoque.exe
+C:\Users\andre\Documents\Visual Studio 2017\estoqueCamietas\estoque\obj\Debug\estoque.pdb
+C:\Users\andre\Documents\Visual Studio 2017\estoqueCamietas\estoque\obj\Debug\estoque.imagem.resources
+C:\estoqueCamietas\estoque\bin\Debug\estoque.exe.config
+C:\estoqueCamietas\estoque\bin\Debug\estoque.exe
+C:\estoqueCamietas\estoque\bin\Debug\estoque.pdb
+C:\estoqueCamietas\estoque\obj\Debug\estoque.Form1.resources
+C:\estoqueCamietas\estoque\obj\Debug\estoque.imagem.resources
+C:\estoqueCamietas\estoque\obj\Debug\estoque.modItens.resources
+C:\estoqueCamietas\estoque\obj\Debug\estoque.Properties.Resources.resources
+C:\estoqueCamietas\estoque\obj\Debug\estoque.csproj.GenerateResource.cache
+C:\estoqueCamietas\estoque\obj\Debug\estoque.exe
+C:\estoqueCamietas\estoque\obj\Debug\estoque.pdb
+C:\estoqueCamietas\estoque\obj\Debug\estoque.login.resources
+C:\estoqueCamietas\estoque\obj\Debug\estoque.saida.resources
+C:\estoqueCamietas\estoque\obj\Debug\estoque.csprojAssemblyReference.cache
+C:\estoqueCamietas\estoque\obj\Debug\estoque.csproj.CoreCompileInputs.cache
+C:\Users\andre\Desktop\estoqueCamietas\estoque\bin\Debug\estoque.exe.config
+C:\Users\andre\Desktop\estoqueCamietas\estoque\bin\Debug\estoque.exe
+C:\Users\andre\Desktop\estoqueCamietas\estoque\bin\Debug\estoque.pdb
+C:\Users\andre\Desktop\estoqueCamietas\estoque\obj\Debug\estoque.csprojAssemblyReference.cache
+C:\Users\andre\Desktop\estoqueCamietas\estoque\obj\Debug\estoque.Form1.resources
+C:\Users\andre\Desktop\estoqueCamietas\estoque\obj\Debug\estoque.imagem.resources
+C:\Users\andre\Desktop\estoqueCamietas\estoque\obj\Debug\estoque.login.resources
+C:\Users\andre\Desktop\estoqueCamietas\estoque\obj\Debug\estoque.modItens.resources
+C:\Users\andre\Desktop\estoqueCamietas\estoque\obj\Debug\estoque.Properties.Resources.resources
+C:\Users\andre\Desktop\estoqueCamietas\estoque\obj\Debug\estoque.saida.resources
+C:\Users\andre\Desktop\estoqueCamietas\estoque\obj\Debug\estoque.csproj.GenerateResource.cache
+C:\Users\andre\Desktop\estoqueCamietas\estoque\obj\Debug\estoque.csproj.CoreCompileInputs.cache
+C:\Users\andre\Desktop\estoqueCamietas\estoque\obj\Debug\estoque.exe
+C:\Users\andre\Desktop\estoqueCamietas\estoque\obj\Debug\estoque.pdb
+C:\estoqueCamisetas\estoque\bin\Debug\estoque.exe.config
+C:\estoqueCamisetas\estoque\bin\Debug\estoque.exe
+C:\estoqueCamisetas\estoque\bin\Debug\estoque.pdb
+C:\estoqueCamisetas\estoque\obj\Debug\estoque.csprojAssemblyReference.cache
+C:\estoqueCamisetas\estoque\obj\Debug\estoque.Form1.resources
+C:\estoqueCamisetas\estoque\obj\Debug\estoque.imagem.resources
+C:\estoqueCamisetas\estoque\obj\Debug\estoque.login.resources
+C:\estoqueCamisetas\estoque\obj\Debug\estoque.modItens.resources
+C:\estoqueCamisetas\estoque\obj\Debug\estoque.Properties.Resources.resources
+C:\estoqueCamisetas\estoque\obj\Debug\estoque.saida.resources
+C:\estoqueCamisetas\estoque\obj\Debug\estoque.csproj.GenerateResource.cache
+C:\estoqueCamisetas\estoque\obj\Debug\estoque.csproj.CoreCompileInputs.cache
+C:\estoqueCamisetas\estoque\obj\Debug\estoque.exe
+C:\estoqueCamisetas\estoque\obj\Debug\estoque.pdb
+F:\estoqueCamisetas\estoque\bin\Debug\estoque.exe.config
+F:\estoqueCamisetas\estoque\obj\Debug\estoque.exe
+F:\estoqueCamisetas\estoque\obj\Debug\estoque.pdb
+F:\estoqueCamisetas\estoque\obj\Debug\estoque.csprojResolveAssemblyReference.cache
