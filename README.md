@@ -1,5 +1,2 @@
-# estoqueC#
-Estoque de camisetas feito com C# e SQL Server
-
-
-
+# estoqueCamietas
+Controle de estoque camisetas C#/SQL Server

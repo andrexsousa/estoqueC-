@@ -2,7 +2,7 @@ CREATE DATABASE estoqueCamisetas ON PRIMARY (NAME = estoqueCamisetas, FILENAME =
 LOG ON ( NAME = estoqueCamisetas_log, FILENAME = 'C:\sql\estoqueCamisetas_log.ldf', SIZE= 1MB, FILEGROWTH = 1MB)
 GO
 
-//create database estoqueCamisetas
+create database estoqueCamisetas
 
 use estoqueCamisetas
 

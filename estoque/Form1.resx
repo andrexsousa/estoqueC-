@@ -215,6 +215,9 @@
   <metadata name="estoqueCamisetasDataSet.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
+  <metadata name="estoqueCamisetasDataSet.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
   <metadata name="tblCamisetaTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>405, 17</value>
   </metadata>
@@ -233,23 +236,6 @@
         C202z+pGK3R3TdBHkMa8zXXLLQYd0Fvz1prRHucaFnCOG1wGyiL8oNuAMoq0yQqeVbHsIXsw6kPMJP5s
         0ovsYenBB5QLpHUN3uQpPJUdjEP/0Bi2EfOJH3eyCWUdmut+aqWCagPRMI9lL0IXdoB7fEE/2BEm4PtS
         vwr1SwrfZNfDej2+WVQAAAAASUVORK5CYII=
-</value>
-  </data>
-  <data name="btnFoto.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABEAAAARCAYAAAA7bUf6AAAABGdBTUEAALGeYUxB9wAAACBjSFJNAACH
-        EAAAjBIAAP1NAACBPgAAWesAARIPAAA85gAAGc66ySIyAAABJmlDQ1BBZG9iZSBSR0IgKDE5OTgpAAAo
-        z2NgYDJwdHFyZRJgYMjNKykKcndSiIiMUmA/z8DGwMwABonJxQWOAQE+IHZefl4qAwb4do2BEURf1gWZ
-        xUAa4EouKCoB0n+A2CgltTiZgYHRAMjOLi8pAIozzgGyRZKywewNIHZRSJAzkH0EyOZLh7CvgNhJEPYT
-        ELsI6Akg+wtIfTqYzcQBNgfClgGxS1IrQPYyOOcXVBZlpmeUKBhaWloqOKbkJ6UqBFcWl6TmFit45iXn
-        FxXkFyWWpKYA1ULcBwaCEIWgENMAarTQZKAyAMUDhPU5EBy+jGJnEGIIkFxaVAZlMjIZE+YjzJgjwcDg
-        v5SBgeUPQsykl4FhgQ4DA/9UhJiaIQODgD4Dw745AMDGT/0ZOjZcAAAACXBIWXMAAAsTAAALEwEAmpwY
-        AAABO0lEQVQ4T6XSPUtCYRjGcSWygpyltaWPENRQX6DBoa2PEBFR0dvQUtRWmxBCIpZLQRRFIjjU2Aco
-        UUgicGpycDv9r8cTz8lzL9YFP8+57/N4c16eRBAE/2Y2B2U2sYQPNPCKZlgvIrY+1gjlYOUEsfX6mcUB
-        NrGBVbzDyht2cIRjnGJOQ85gRYO2MB8eP6EcYgbTKKOiIQX05xZDGMEUxpDCc2gFy3hCVUPyiEYvcBwZ
-        3KlBHjCBUbTViKRoDVmD+hVX+dSg/rqrfErWkAUMo+Mqny70eFlX+ZhDtqH+tat89J7U33OVjzmkjjSS
-        uEcLj9CLVl+bLxo35Lx3/iu6i0no+g/VV+hPWRcve+dmLrCLkqvs3GiINpI+qx5DO1K3q431hRfoM+uo
-        Wn1d1zqt1//2o7f7Z2ZzMEHiG5Ro8DBVuTvqAAAAAElFTkSuQmCC
 </value>
   </data>
   <data name="btnSaida.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">

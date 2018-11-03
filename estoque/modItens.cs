@@ -431,15 +431,6 @@ namespace estoque
                 rbHerois.Checked = true;
             }
         }
-        private void txtPreco_Leave_1(object sender, EventArgs e)
-        {
-            if (txtPreco.Text != "")
-            {
-                string texto = Convert.ToDecimal(txtPreco.Text).ToString("C");
-                
-                txtPreco.Text = texto.Replace("R$ ", "");
-            }
-        }
 
         public static void Moeda(ref TextBox txt)
         {

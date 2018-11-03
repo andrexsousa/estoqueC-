@@ -162,7 +162,6 @@
             this.txtPreco.TabIndex = 18;
             this.txtPreco.TextChanged += new System.EventHandler(this.txtPreco_TextChanged);
             this.txtPreco.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtPreco_KeyPress);
-            this.txtPreco.Leave += new System.EventHandler(this.txtPreco_Leave_1);
             // 
             // txtEstoque
             // 

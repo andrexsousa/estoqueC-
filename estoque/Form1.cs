@@ -107,45 +107,10 @@ namespace estoque
         {
             buscarTudo();
         }
-        private void txtSrc_MouseClick(object sender, MouseEventArgs e)
-        {
-            
-          /*txtSrc.SelectionStart = 0;
-           txtSrc.SelectAll();*/
-        }
-
-
-        private void txtSrc_KeyPress(object sender, KeyPressEventArgs e)
-        {
-            if (e.KeyChar == 13)
-            {
-                if (txtSrc.Text != "")
-                {
-                    buscarPorId();
-                }
-                else
-                {
-                    MessageBox.Show("Campo em Branco!");
-                }
-            }
-        }
 
        
         //ver Foto
-        private void button1_Click_2(object sender, EventArgs e)
-        {
-                if(dgvData.CurrentRow != null)
-            {
-                imagem foto = new imagem();
-                foto.img = dgvData.CurrentRow.Cells[8].Value.ToString();
-                foto.ShowDialog();
-            }
-            else
-            {
-                MessageBox.Show("Nenhum Item Selecionado!","Aviso");
-            }
-                
-        }
+        
         private void btnDel_Click(object sender, EventArgs e)
         {
             if(dgvData.CurrentRow == null)
@@ -166,11 +131,6 @@ namespace estoque
                     buscarTudo();
                 }
             }
-        }
-
-        private void dgvData_CellClick(object sender, DataGridViewCellEventArgs e)
-        {
-            btnFoto.Enabled = true;
         }
 
         private void timer1_Tick(object sender, EventArgs e)
@@ -224,6 +184,16 @@ namespace estoque
                     MessageBox.Show("Campo em Branco!");
                 }
             }
+        }
+
+        private void dgvData_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            pctimage.ImageLocation = dgvData.CurrentRow.Cells[8].Value.ToString();
+        }
+
+        private void pctimage_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

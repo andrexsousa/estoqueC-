@@ -53,18 +53,21 @@
             this.tblCamisetaTableAdapter = new estoque.estoqueCamisetasDataSetTableAdapters.tblCamisetaTableAdapter();
             this.btnSair = new System.Windows.Forms.Button();
             this.btnRecarregar = new System.Windows.Forms.Button();
-            this.btnFoto = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.btnSaida = new System.Windows.Forms.Button();
             this.btnEntrada = new System.Windows.Forms.Button();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.lblData = new System.Windows.Forms.Label();
+            this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.pctimage = new System.Windows.Forms.PictureBox();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvData)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tblCamisetaBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.estoqueCamisetasDataSet)).BeginInit();
             this.groupBox1.SuspendLayout();
+            this.groupBox4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pctimage)).BeginInit();
             this.SuspendLayout();
             // 
             // lblSrc
@@ -213,7 +216,7 @@
             this.dgvData.Location = new System.Drawing.Point(7, 110);
             this.dgvData.Name = "dgvData";
             this.dgvData.ReadOnly = true;
-            this.dgvData.Size = new System.Drawing.Size(781, 269);
+            this.dgvData.Size = new System.Drawing.Size(649, 269);
             this.dgvData.TabIndex = 10;
             this.dgvData.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvData_CellClick);
             // 
@@ -297,6 +300,7 @@
             this.imgDataGridViewTextBoxColumn.Name = "imgDataGridViewTextBoxColumn";
             this.imgDataGridViewTextBoxColumn.ReadOnly = true;
             this.imgDataGridViewTextBoxColumn.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.imgDataGridViewTextBoxColumn.Visible = false;
             this.imgDataGridViewTextBoxColumn.Width = 150;
             // 
             // tblCamisetaBindingSource
@@ -349,24 +353,6 @@
             this.btnRecarregar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnRecarregar.UseVisualStyleBackColor = false;
             this.btnRecarregar.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // btnFoto
-            // 
-            this.btnFoto.BackColor = System.Drawing.Color.Purple;
-            this.btnFoto.FlatAppearance.BorderSize = 0;
-            this.btnFoto.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnFoto.Font = new System.Drawing.Font("Tahoma", 7.5F, System.Drawing.FontStyle.Bold);
-            this.btnFoto.ForeColor = System.Drawing.Color.White;
-            this.btnFoto.Image = ((System.Drawing.Image)(resources.GetObject("btnFoto.Image")));
-            this.btnFoto.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnFoto.Location = new System.Drawing.Point(608, 80);
-            this.btnFoto.Name = "btnFoto";
-            this.btnFoto.Size = new System.Drawing.Size(78, 21);
-            this.btnFoto.TabIndex = 12;
-            this.btnFoto.Text = "Ver Foto";
-            this.btnFoto.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnFoto.UseVisualStyleBackColor = false;
-            this.btnFoto.Click += new System.EventHandler(this.button1_Click_2);
             // 
             // groupBox1
             // 
@@ -430,15 +416,35 @@
             this.lblData.TabIndex = 14;
             this.lblData.Text = "hora";
             // 
+            // groupBox4
+            // 
+            this.groupBox4.Controls.Add(this.pctimage);
+            this.groupBox4.Location = new System.Drawing.Point(656, 103);
+            this.groupBox4.Name = "groupBox4";
+            this.groupBox4.Size = new System.Drawing.Size(144, 277);
+            this.groupBox4.TabIndex = 15;
+            this.groupBox4.TabStop = false;
+            this.groupBox4.Text = "Imagem";
+            // 
+            // pctimage
+            // 
+            this.pctimage.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pctimage.Location = new System.Drawing.Point(3, 56);
+            this.pctimage.Name = "pctimage";
+            this.pctimage.Size = new System.Drawing.Size(136, 184);
+            this.pctimage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pctimage.TabIndex = 0;
+            this.pctimage.TabStop = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 399);
             this.ControlBox = false;
+            this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.lblData);
             this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.btnFoto);
             this.Controls.Add(this.btnRecarregar);
             this.Controls.Add(this.btnSair);
             this.Controls.Add(this.dgvData);
@@ -450,7 +456,7 @@
             this.MinimizeBox = false;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Controle de estoque";
+            this.Text = "Estoque";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
@@ -459,6 +465,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.tblCamisetaBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.estoqueCamisetasDataSet)).EndInit();
             this.groupBox1.ResumeLayout(false);
+            this.groupBox4.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pctimage)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -478,7 +486,12 @@
         private estoqueCamisetasDataSetTableAdapters.tblCamisetaTableAdapter tblCamisetaTableAdapter;
         private System.Windows.Forms.Button btnSair;
         private System.Windows.Forms.Button btnRecarregar;
-        private System.Windows.Forms.Button btnFoto;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.Button btnSaida;
+        private System.Windows.Forms.Button btnEntrada;
+        private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.Label lblData;
+        private System.Windows.Forms.TextBox txtSrc;
         private System.Windows.Forms.DataGridViewTextBoxColumn idDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn nomeDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn corDataGridViewTextBoxColumn;
@@ -488,12 +501,8 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn precoDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn quantidadeDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn imgDataGridViewTextBoxColumn;
-        private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Button btnSaida;
-        private System.Windows.Forms.Button btnEntrada;
-        private System.Windows.Forms.Timer timer1;
-        private System.Windows.Forms.Label lblData;
-        private System.Windows.Forms.TextBox txtSrc;
+        private System.Windows.Forms.GroupBox groupBox4;
+        private System.Windows.Forms.PictureBox pctimage;
     }
 }
 

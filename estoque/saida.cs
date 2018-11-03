@@ -67,10 +67,10 @@ namespace estoque
             switch (eS)
             {
                 case 0:
-                    quantF = quant - Convert.ToInt32(numUpDown.Value);
+                    quantF = Convert.ToInt32(txtEstoque.Text) - Convert.ToInt32(numUpDown.Value);
                     break;
                 default:
-                    quantF = quant + Convert.ToInt32(numUpDown.Value);
+                    quantF = Convert.ToInt32(txtEstoque.Text) + Convert.ToInt32(numUpDown.Value);
                     break;
             }
 
@@ -139,6 +139,11 @@ namespace estoque
             {
                 e.Handled = true;
             }
+        }
+
+        private void pctSaida_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
