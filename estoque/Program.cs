@@ -16,7 +16,7 @@ namespace estoque
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new saida());
+            Application.Run(new Form1());
         }
     }
 }

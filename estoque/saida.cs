@@ -78,9 +78,10 @@ namespace estoque
         }
         private void btnConfirmar_Click(object sender, EventArgs e)
         {
-            switch (eS)
+            if(eS == 1)
             {
-                case 1:
+                if((quantF > 1000) || (numUpDown.Value == 0))
+                {
                     if (quantF > 1000)
                     {
                         MessageBox.Show("Estoque Futuro não pode ser maior que 1000");
@@ -89,43 +90,52 @@ namespace estoque
                     {
                         MessageBox.Show("Valor de Entrada não poder ser 0");
                     }
-                    else
-                    {
-                        cmd = new SqlCommand("UPDATE tblCamiseta SET quantidade =" + "'" + quantF + "'" + "where id =" + "'" + cod + "'", con);
-                        con.Open();
-                        cmd.ExecuteNonQuery();
-                        con.Close();
+                }
+                else
+                {
+                    cmd = new SqlCommand("UPDATE tblCamiseta SET quantidade =" + "'" + quantF + "'" + "where id =" + "'" + cod + "'", con);
+                    con.Open();
+                    cmd.ExecuteNonQuery();
+                    con.Close();
 
-                        MessageBox.Show("Alteração efetuada\nEstoque atual " + quantF + " Itens");
+                    MessageBox.Show("Alteração efetuada\nEstoque atual " + quantF + " Itens");
 
-                        txtEstoque.Text = quantF.ToString();
-                        
-                    }
-                    break;
-                default:
+                    txtEstoque.Text = quantF.ToString();
+
+                }
+            }
+            else
+            {
+                if((numUpDown.Value > quant) || (quantF < 0) || (numUpDown.Value == 0))
+                {
                     if (numUpDown.Value > quant)
                     {
                         MessageBox.Show("Valor de Saída não poder ser maior que o estoque");
                     }
-                    else if(numUpDown.Value == 0)
+                    if (quantF < 0)
+                    {
+                        MessageBox.Show("Estoque Futuro não pode ser menor que 0");
+                    }
+                    if (numUpDown.Value == 0)
                     {
                         MessageBox.Show("Valor de Saída não poder ser 0");
                         quantF = 0;
                     }
-                    else
-                    {
-                        cmd = new SqlCommand("UPDATE tblCamiseta SET quantidade =" + "'" + quantF + "'" + "where id =" + "'" + txtCodS.Text + "'", con);
-                        con.Open();
-                        cmd.ExecuteNonQuery();
-                        con.Close();
+                }
+                else
+                {
+                    cmd = new SqlCommand("UPDATE tblCamiseta SET quantidade =" + "'" + quantF + "'" + "where id =" + "'" + txtCodS.Text + "'", con);
+                    con.Open();
+                    cmd.ExecuteNonQuery();
+                    con.Close();
 
-                        MessageBox.Show("Alteração efetuada\nEstoque atual " + quantF + " Itens");
+                    MessageBox.Show("Alteração efetuada\nEstoque atual " + quantF + " Itens");
 
-                        txtEstoque.Text = quantF.ToString();
-                        quantF = 0;
-                    }
-                    break;
+                    txtEstoque.Text = quantF.ToString();
+                    quantF = 0;
+                }
             }
+            
             
         }
         private void txtEstoque_TextChanged(object sender, EventArgs e)

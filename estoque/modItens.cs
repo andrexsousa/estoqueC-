@@ -18,10 +18,10 @@ namespace estoque
         SqlDataReader objDados;
 
         //receber o valor do checked
-        public string cor = "";
+        public string cor;
         public string tamanho = "";
         public string categoria = "";
-        public string tipo = "";
+        public string tipo;
         public string preco { get; set; }//para receber o preço
 
         public string imagem = "";
@@ -367,27 +367,28 @@ namespace estoque
 
             //carregando informações do grid
             //cor
-            if(cor == "Preta")
+            switch (cor)
             {
-                rbPreta.Checked = true;
+                case "Preta":
+                    rbPreta.Checked = true;
+                    break;
+                case "Branca":
+                    rbBranca.Checked = true;
+                    break;
+                case "Cinza":
+                    rbCinza.Checked = true;
+                    break;
             }
-            if (cor == "Branca")
+            switch (tipo)
             {
-                rbBranca.Checked = true;
+                case "Unissex":
+                    rbUni.Checked = true;
+                    break;
+                case "Baby Look":
+                    rbBaby.Checked = true;
+                    break;
             }
-            if (cor == "Cinza")
-            {
-                rbCinza.Checked = true;
-            }
-            //tipo
-            if (tipo == "Unissex")
-            {
-                rbUni.Checked = true;
-            }
-            if (tipo == "Baby Look")
-            {
-                rbBaby.Checked = true;
-            }
+            
             //tamanho
             if(tamanho == "P")
             {
